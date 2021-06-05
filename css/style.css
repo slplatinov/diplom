@@ -10,9 +10,9 @@
    background-color: #FFFFFF;
  }
 
- div {
-   display: block;
- }
+ /* div { */
+ /* display: block; */
+ /* } */
 
  p {
    font-family: "Roboto", sans-serif;
@@ -31,19 +31,154 @@
    margin: 0;
  }
 
+ /* div.container { */
+ /* background-color: darkgrey; */
+ /* } */
+
+ div.logo {
+   display: inline-block;
+ }
+
+ div.hh1 {
+   display: inline-block;
+   margin-left: 25%;
+   vertical-align: top;
+   margin-top: 1em;
+
+ }
+
+ div.hh1>h1 {
+   font-family: "Ubuntu", sans-serif;
+   font-size: 100px;
+ }
+
  .logo {
+
    width: 150px;
    height: 201px;
  }
 
- /*______HEADER (BEGINER)______________*/
-
- nav {
-   border: solid 1px;
-
+ div.bucket {
+   display: inline-block;
+   vertical-align: top;
+   margin-left: 1%;
+   border: 1px solid gray;
 
 
  }
+
+ .buck {
+   font-style: gray;
+ }
+
+ span.counter::before {
+   content: "0";
+ }
+
+ .counter {
+   display: inline-block;
+   position: relative;
+   padding: 0.05em 0.6em 0 0.6em;
+   margin-left: 0.75em;
+   background: #c0c0c0;
+   color: #fff;
+   border-radius: 0.2em;
+ }
+
+ .serch {
+   border: none;
+   border-left: 1px solid gray;
+ }
+
+ .form_search {
+   border: 1px solid gray;
+ }
+
+ .bucket input.submit {
+   display: inline-block;
+   position: absolute;
+   z-index: 1000;
+   top: 1pt;
+   left: 1pt;
+   width: 2em;
+   height: 2em;
+   cursor: pointer;
+   background: none;
+   color: #fff;
+ }
+
+
+
+ .row.head p {
+   margin: 0;
+ }
+
+
+
+
+
+ row>.container {
+   position: relative;
+   margin: 0 auto;
+   max-width: 1100px;
+   overflow: hidden;
+ }
+
+ .row>.mentainer {
+   /* background-color: #aaa; */
+   vertical-align: middle;
+
+   position: relative;
+   margin: 0 auto;
+   padding: 10px;
+   max-width: 1100px;
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+
+ }
+
+ a.header-menu-link {
+   font-size: 125%;
+   color: rgb(211, 74, 32);
+ }
+
+ .row.head ul.nav {
+   display: inline-block;
+   vertical-align: middle;
+   list-style: none;
+   margin: 0 auto;
+   padding: 0;
+   width: 100%;
+   text-align: center;
+   white-space: normal;
+   position: relative;
+ }
+
+ li.header-menu-link {
+   display: inline-block;
+ }
+
+ li a.header-menu-link {
+   display: block;
+   margin-left: 20px;
+   text-decoration: none;
+ }
+
+ /* a { */
+ /* transition: all 0.3s ease-out; */
+ /* } */
+
+ li.animate a :hover {
+   transition: all 0.3s ease-out;
+   transform: translate(0, 4px);
+ }
+
+ img.img-fluid {
+   text-align: center;
+   margin-left: 4.5em;
+ }
+
+ /*______HEADER (BEGINER)______________*/
 
  /* .container-knot::after { */
  /* display: block; */
@@ -93,7 +228,7 @@
 */
 
  ul {
-   display: block;
+   /* display: block; */
    margin-block-start: 1em;
    margin-block-end: 1em;
    margin-inline-start: 0px;
@@ -106,11 +241,17 @@
    display: inline-block;
  }
 
+ .row.carousel {
+   margin-top: 0;
+ }
+
  .row.carousel.container {
    padding-bottom: 1em;
    /* max-width: auto; */
    overflow: visible;
    margin: 0 auto;
+   /* margin-top: none; */
+
  }
 
  .row>.container {
