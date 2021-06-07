@@ -307,6 +307,92 @@
  ul li.animate {
    display: inline-block;
  }
+/* секция Каталог */
+#carousel {
+   display: flex;
+   position:relative;
+   margin-top: 0 auto;
+   /* height: 150%; */
+   /* visibility: hidden; */
+   visibility: visible;
+   /* visibility: hidden; */
+   /* z-index: 10; */
+ }
+#listCatalog {
+   display: none;
+   position: absolute;
+   width: 1100px;
+   /* height: 80%; */
+   /* z-index: 1000; */
+   visibility: visible;
+   /* display:none; */
+   /* display: flex; */
+   text-align: left;
+   margin-left: 3.5em;
+   /* background-color: gray; */
+   /* top: 65% */
+ }
+ #listCatalog1 {
+   display: none;
+   position: absolute;
+   width: 1100px;
+   /* height: 80%; */
+   /* z-index: 1000; */
+   visibility: hidden;
+   /* display:none; */
+   /* display: flex; */
+   text-align: left;
+   margin-left: 3.5em;
+   /* background-color: gray; */
+   /* top: 65% */
+ }
+.catalog0 {
+   margin: 0 auto;
+   padding: 0.2em 0.8em 1em 0.8em;
+   line-height: 100%;
+   font-size: 200%;
+   font-weight: 500;
+   text-align: center;
+   color: #111;
+ }
+ .catalog1 {
+   margin: 0 auto;
+   padding: 0.2em 0.8em 1em 0.8em;
+   line-height: 100%;
+   font-size: 200%;
+   font-weight: 500;
+   text-align: center;
+   color: #111;
+ }
+  .advantages-item {
+   margin-bottom: 0;
+   margin-top: 10px;
+ }
+
+ .advantages-image {
+   height: 128px;
+   width: 128px;
+   margin-left: 6em;
+ }
+
+ .advantages-item-header {
+   margin-top: 25px;
+   margin-left: 0;
+   align-content: center;
+   text-align: center;
+   font-family: 'Ubuntu'sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+   color: #a00;
+ }
+
+ p.advantages-item-text {
+   width: 100%;
+   margin: 0 10px 0 10px;
+   /* background-color: yellow; */
+   text-align: left;
+
+ }
 
  /*______HEADER (END)__________________*/
  /*main*/
