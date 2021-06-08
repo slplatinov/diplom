@@ -307,10 +307,11 @@
  ul li.animate {
    display: inline-block;
  }
-/* секция Каталог */
-#carousel {
+
+ /* секция Каталог */
+ #carousel {
    display: flex;
-   position:relative;
+   position: relative;
    margin-top: 0 auto;
    /* height: 150%; */
    /* visibility: hidden; */
@@ -318,7 +319,8 @@
    /* visibility: hidden; */
    /* z-index: 10; */
  }
-#listCatalog {
+
+ #listCatalog {
    display: none;
    position: absolute;
    width: 1100px;
@@ -332,6 +334,7 @@
    /* background-color: gray; */
    /* top: 65% */
  }
+
  #listCatalog1 {
    display: none;
    position: absolute;
@@ -346,7 +349,8 @@
    /* background-color: gray; */
    /* top: 65% */
  }
-.catalog0 {
+
+ .catalog0 {
    margin: 0 auto;
    padding: 0.2em 0.8em 1em 0.8em;
    line-height: 100%;
@@ -355,6 +359,7 @@
    text-align: center;
    color: #111;
  }
+
  .catalog1 {
    margin: 0 auto;
    padding: 0.2em 0.8em 1em 0.8em;
@@ -364,7 +369,8 @@
    text-align: center;
    color: #111;
  }
-  .advantages-item {
+
+ .advantages-item {
    margin-bottom: 0;
    margin-top: 10px;
  }
@@ -387,10 +393,10 @@
  }
 
  p.advantages-item-text {
-   width: 100%;
-   margin: 0 10px 0 10px;
+   width: 90%;
+   margin: 0 5px 0 5px;
    /* background-color: yellow; */
-   text-align: left;
+   text-align: center;
 
  }
 
@@ -422,4 +428,75 @@
    max-width: 1100px;
    position: relative;
    margin: 0 auto;
+ }
+
+
+
+
+ body {
+   font-family: verdana;
+   font-size: 15px;
+ }
+
+ .link {
+   color: #fff;
+   text-decoration: none
+ }
+
+ .link:hover {
+   color: #fff;
+   text-decoration: underline
+ }
+
+ #mask {
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: 9000;
+   background-color: #000;
+   display: none;
+ }
+
+ #boxes .window {
+   position: absolute;
+   left: 0;
+   top: 0px;
+   -top: 40px;
+   width: 440px;
+   height: 200px;
+   display: none;
+   z-index: 9999;
+   padding: 20px;
+   overflow: hidden;
+ }
+
+ .iw {
+   background-color: lawngreen;
+   font-size: 24px;
+ }
+
+ #boxes #dialog {
+   width: 375px;
+   height: 203px;
+   padding: 10px;
+   background-color: #ffffff;
+   margin-top: 50%;
+ }
+
+ .top {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 370px;
+   height: 30px;
+   background: #0085cc;
+   padding: 8px 20px 6px 10px;
+ }
+
+ .close {
+   float: right;
+ }
+
+ .content {
+   padding-top: 35px;
  }
