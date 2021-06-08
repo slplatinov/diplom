@@ -7,22 +7,22 @@ function clickMenu() {
   document.getElementById("listCatalog").style.position = "relative";
   // elMsg.style.display=block;
 }
-function divHide(){
+function divHide() {
   let elMsg = document.getElementById("carousel");
   // console.log(elMsg);
-  let elw= document.getElementById("listCatalog1");
+  let elw = document.getElementById("listCatalog1");
   console.log(elw);
   elMsg.style.visibility = "hidden";
-   elMsg.style.display = "none";
-   elMsg.style.position = "absolute";
-   
-   elw.style.visibility = "hidden";
-   elw.style.display = "none";
-   elw.style.position = "absolute";
-// console.log(elw);
+  elMsg.style.display = "none";
+  elMsg.style.position = "absolute";
+
+  elw.style.visibility = "hidden";
+  elw.style.display = "none";
+  elw.style.position = "absolute";
+  // console.log(elw);
   // elMsg.style.display=none;
 }
-function clickLogo(){
+function clickLogo() {
   let elLog = document.getElementById("clLogo");
   // console.log(elLog);
   divVisibleLog();
@@ -41,7 +41,7 @@ function divVisibleLog() {
   elLog.style.position = "relative";
   // elMsg.style.display=none;
 }
-function clWindSurf(){
+function clWindSurf() {
   let elWC = document.getElementById("aWindSurf");
   console.log(elWC);
   // console.log(elLog);
