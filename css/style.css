@@ -175,7 +175,9 @@
 
  img.img-fluid {
    text-align: center;
-   margin-left: 4.5em;
+   /* margin-left: 4.5em; */
+   margin-left: auto;
+   margin-right:auto;
  }
 
  /*______HEADER (BEGINER)______________*/
@@ -253,7 +255,9 @@
    /* margin-top: none; */
 
  }
-
+.carousel-item{
+  text-align:center;
+}
  .row>.container {
    position: relative;
    margin: 0 auto;
@@ -263,12 +267,13 @@
 
  .row.carousel p.descr {
    margin: 0 auto;
-   padding: 0.2em 0.8em 1em 0.8em;
+   padding: 0.2em 0.8em 0.2em 0.8em;
    line-height: 100%;
    font-size: 200%;
    font-weight: 500;
    text-align: center;
    color: #111;
+
 
  }
 
@@ -279,7 +284,7 @@
 
  .row.carousel ul {
    list-style: none;
-   margin: 0 auto;
+   /* margin: 0 auto; */
    padding: 0;
    white-space: nowrap;
    text-align: center;
@@ -293,7 +298,7 @@
    border-bottom-style: none;
    /* margin: -2em 0 2em 0; */
    /* margin: 0 auto; */
-   padding: 0 0.5em;
+   /* padding: 0 0.5em; */
    display: block;
    color: #000;
    font-weight: 300;
@@ -345,7 +350,7 @@
    /* display:none; */
    /* display: flex; */
    text-align: left;
-   margin-left: 3.5em;
+   /* margin-left: 3.5em; */
    /* background-color: gray; */
    /* top: 65% */
  }
@@ -378,11 +383,12 @@
  .advantages-image {
    height: 128px;
    width: 128px;
-   margin-left: 6em;
+   margin:0 auto ;
  }
 
  .advantages-item-header {
-   margin-top: 25px;
+   margin-top: 0.5px;
+   margin-bottom: 10px;
    margin-left: 0;
    align-content: center;
    text-align: center;
@@ -393,7 +399,7 @@
  }
 
  p.advantages-item-text {
-   width: 90%;
+   width: 100%;
    margin: 0 5px 0 5px;
    /* background-color: yellow; */
    text-align: center;
@@ -423,14 +429,28 @@
  .row.footer {
    padding: 0;
    overflow: hidden;
-   background: #f4f4f4;
+   /* background: #f4f4f4; */
    display: flex;
    max-width: 1100px;
    position: relative;
    margin: 0 auto;
+   text-align: center;
  }
 
+ .cont {
+   text-align: left;
+   /* padding: 0 10px 0 10px; */
+ }
 
+ .cont2 {
+   text-align: left;
+   /* padding: 0 10px 0 10px; */
+   margin-left: 0 auto;
+ }
+
+ .cont_p {
+   text-align: center;
+ }
 
 
  body {
